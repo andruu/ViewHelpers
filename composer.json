@@ -1,0 +1,23 @@
+{
+    "name": "egloo/view_helpers",
+    "description": "View helpers for eGloo framework",
+    "authors": [
+        {
+            "name": "andruu",
+            "email": "andru.weir@gmail.com"
+        }
+    ],
+    "keywords": [
+        "assets",
+        "pre compile",
+        "sprockets"
+    ],
+    "require": {
+
+    },
+    "autoload": {
+        "psr-0": {
+            "ViewHelpers": "lib/"
+        }
+    }
+}
