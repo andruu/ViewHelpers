@@ -173,7 +173,8 @@ class AssetHelper {
    * @return void
    **/
   private function __write ($type) {
-    require_once '../vendors/json_format.php';
+    
+    $json_formatter = new \webignition\JsonPrettyPrinter\JsonPrettyPrinter();
 
     $asset_type = "{$type}_assets";
 
@@ -192,7 +193,7 @@ class AssetHelper {
     $assets[$type] = array_map("unserialize", array_unique(array_map("serialize", $assets[$type])));
 
     // Write back to file
-    file_put_contents($compile_file, json_format(json_encode($assets)));
+    file_put_contents($compile_file, $json_formatter->format(json_encode($assets)));
   }
 }
 
