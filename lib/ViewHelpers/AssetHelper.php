@@ -1,7 +1,4 @@
 <?php
-if (!defined('DS')) {
-    define('DS', DIRECTORY_SEPARATOR);
-}
 /*
  * This file is part of the ViewHelpers package.
  *
