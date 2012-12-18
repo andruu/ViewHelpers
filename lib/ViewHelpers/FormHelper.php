@@ -17,4 +17,8 @@ namespace ViewHelpers;
  **/
 class FormHelper {
 
+  public function __construct (Array $config = []) {
+
+  }
+  
 }

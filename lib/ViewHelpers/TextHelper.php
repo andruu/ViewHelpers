@@ -17,4 +17,20 @@ namespace ViewHelpers;
  **/
 class TextHelper {
 
+  public function __construct (Array $config = []) {
+
+  }
+
+  public function excerpt ($text, $phrase, $radius = 100, $ending = '...') {
+
+  }
+
+  public function highlight ($text, $phrase, Array $options = []) {
+
+  }
+
+  public function truncate ($text, $length = 100, Array $options = []) {
+    
+  }
+
 }

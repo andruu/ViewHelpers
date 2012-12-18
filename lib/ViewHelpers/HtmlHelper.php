@@ -17,4 +17,16 @@ namespace ViewHelpers;
  **/
 class HtmlHelper {
 
+  public function __construct (Array $config = []) {
+
+  }
+
+  public function link_to ($title, $path, Array $options = []) {
+
+  }
+
+  public function image_tag ($src, Array $options = []) {
+
+  }
+
 }

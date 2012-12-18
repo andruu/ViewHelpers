@@ -17,4 +17,20 @@ namespace ViewHelpers;
  **/
 class DateHelper {
 
+  public function __construct (Array $config = []) {
+
+  }
+
+  public function timeAgoInWords ($dateTime, Array $options = []) {
+
+  }
+
+  public function nice ($dateTime, $userOffset = null) {
+
+  }
+
+  public function niceShort ($dateTime, $userOffset = null) {
+
+  }
+
 }
